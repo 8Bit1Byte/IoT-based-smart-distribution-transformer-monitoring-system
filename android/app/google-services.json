@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "81204679778",
+    "project_id": "smart-monitoring-system-123fe",
+    "storage_bucket": "smart-monitoring-system-123fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:81204679778:android:2c7396e9ea4f1dabe86d3b",
+        "android_client_info": {
+          "package_name": "com.btp.smart_monitoring_system"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "81204679778-1puobgoeq6b31ih6g96te0ro5grb2hni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqSLMvx_Zl3SdKOtsSHVxCiqMXiOUaxgA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "81204679778-1puobgoeq6b31ih6g96te0ro5grb2hni.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

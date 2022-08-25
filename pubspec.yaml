@@ -37,6 +37,8 @@ dependencies:
   scoped_model: ^2.0.0
   dotted_border: ^2.0.0+2
   intl: ^0.17.0
+  firebase_database: ^9.1.2
+  firebase_core: ^1.21.0
 
 dev_dependencies:
   flutter_test:

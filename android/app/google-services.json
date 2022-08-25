@@ -1,33 +1,34 @@
 {
   "project_info": {
-    "project_number": "81204679778",
-    "project_id": "smart-monitoring-system-123fe",
-    "storage_bucket": "smart-monitoring-system-123fe.appspot.com"
+    "project_number": "862976517168",
+    "firebase_url": "https://smart-monitoring-system-85b1a-default-rtdb.firebaseio.com",
+    "project_id": "smart-monitoring-system-85b1a",
+    "storage_bucket": "smart-monitoring-system-85b1a.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:81204679778:android:2c7396e9ea4f1dabe86d3b",
+        "mobilesdk_app_id": "1:862976517168:android:d5f20a40ec7d6c7d07f9f5",
         "android_client_info": {
           "package_name": "com.btp.smart_monitoring_system"
         }
       },
       "oauth_client": [
         {
-          "client_id": "81204679778-1puobgoeq6b31ih6g96te0ro5grb2hni.apps.googleusercontent.com",
+          "client_id": "862976517168-6eafvcullcun6tuq7tk9oc17j3sl7dfv.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCqSLMvx_Zl3SdKOtsSHVxCiqMXiOUaxgA"
+          "current_key": "AIzaSyCw-ZhPmI08MUb9IoL1SFrE4eRwfcp1sAM"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "81204679778-1puobgoeq6b31ih6g96te0ro5grb2hni.apps.googleusercontent.com",
+              "client_id": "862976517168-6eafvcullcun6tuq7tk9oc17j3sl7dfv.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

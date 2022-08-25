@@ -1,5 +1,6 @@
 import 'dart:developer';
 
+import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:smart_monitoring_system/routes/device_details.dart';
 import 'package:smart_monitoring_system/scopedModel/connectedModel.dart';
@@ -14,6 +15,19 @@ class HomePageBody extends StatefulWidget {
 }
 
 class _HomePageBodyState extends State<HomePageBody> {
+  late DatabaseReference dbref;
+
+  void initState() {
+    super.initState();
+    dbref = FirebaseDatabase.instance.ref();
+  }
+
+  _creatDB(model, index) {
+    dbref
+        .child(model.allYatch[index].title)
+        .set({"State": !model.allYatch[index].isEnable});
+  }
+
   Widget _upperContainer() {
     return Container(
       alignment: Alignment.topLeft,
@@ -138,6 +152,7 @@ class _HomePageBodyState extends State<HomePageBody> {
                     activeColor: Color(0xff457be4),
                     onChanged: (_) {
                       setState(() {
+                        _creatDB(model, index);
                         model.allYatch[index].isEnable =
                             !model.allYatch[index].isEnable;
                       });
@@ -220,7 +235,7 @@ class _HomePageBodyState extends State<HomePageBody> {
   Widget build(BuildContext context) {
     return Column(children: <Widget>[
       Container(
-        height: 258,
+        // height: 258,
         width: MediaQuery.of(context).size.width,
         padding: EdgeInsets.only(
             top: MediaQuery.of(context).padding.top + 50,

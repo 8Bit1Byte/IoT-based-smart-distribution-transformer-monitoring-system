@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:smart_monitoring_system/routes/device_details.dart';
-import 'package:smart_monitoring_system/routes/home_page.dart';
+import 'package:smart_monitoring_system/routes/home_page_body.dart';
 
 class RouteGenerator {
   static const String homePage = '/';

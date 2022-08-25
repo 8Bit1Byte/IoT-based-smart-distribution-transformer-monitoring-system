@@ -1,11 +1,15 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:smart_monitoring_system/routes.dart';
 import 'package:smart_monitoring_system/scopedModel/connectedModel.dart';
 import 'package:scoped_model/scoped_model.dart';
 
-import 'routes/home_page.dart';
+import 'routes/home_page_body.dart';
 
-void main() => runApp(MyApp());
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   final ApplianceModel model = ApplianceModel();
